@@ -1,0 +1,13 @@
+
+authenticated.suggestion.list.label.title	= Title
+authenticated.suggestion.list.label.creationMoment = Creation moment
+
+
+
+
+authenticated.suggestion.form.label.title	= Title
+authenticated.suggestion.form.label.creationMoment = Creation moment
+authenticated.suggestion.form.label.description	= Description
+authenticated.suggestion.form.label.email	= Email
+
+authenticated.suggestion.form.button.return = Return

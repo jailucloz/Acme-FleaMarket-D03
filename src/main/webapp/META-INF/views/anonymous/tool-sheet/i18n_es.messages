@@ -1,0 +1,12 @@
+
+anonymous.toolSheet.list.label.title = Título
+anonymous.toolSheet.list.label.providerName = Nombre del proveedor
+anonymous.toolSheet.list.label.stars = Estrellas
+
+anonymous.toolSheet.form.label.title = Título:
+anonymous.toolSheet.form.label.providerName = Nombre del proveedor:
+anonymous.toolSheet.form.label.description = Descripción:
+anonymous.toolSheet.form.label.web = Página de inicio:
+anonymous.toolSheet.form.label.stars = Estrellas:
+
+anonymous.toolSheet.form.button.return = Volver

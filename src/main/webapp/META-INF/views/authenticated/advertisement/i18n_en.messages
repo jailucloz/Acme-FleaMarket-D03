@@ -1,0 +1,18 @@
+
+authenticated.advertisement.list.label.title	= Title
+authenticated.advertisement.list.label.deadline = Deadline
+
+
+
+authenticated.advertisement.form.label.picture	= Picture
+authenticated.advertisement.form.label.title	= Title
+authenticated.advertisement.form.label.smallDiscount	= Small volume discount
+authenticated.advertisement.form.label.averageDiscount	= Average volume discount
+authenticated.advertisement.form.label.largeDiscount	= Large volume discount
+authenticated.advertisement.form.label.deadline = Display end at
+authenticated.advertisement.form.label.initialTime = Display begin at
+authenticated.advertisement.form.label.creationMoment = Creation moment
+authenticated.advertisement.form.label.description	= Text
+authenticated.advertisement.form.label.picture	= Picture
+
+authenticated.advertisement.form.button.return = Return

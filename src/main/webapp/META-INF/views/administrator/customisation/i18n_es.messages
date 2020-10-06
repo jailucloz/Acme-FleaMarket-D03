@@ -1,0 +1,8 @@
+administrator.customisation.form.label.spamWords = Palabras spam:
+administrator.customisation.form.label.spamThreshold = Porcentage de spam:
+administrator.customisation.form.label.itemCategories = Categorias de items:
+administrator.customisation.form.label.newsCategories = Categorias de noticias:
+administrator.customisation.list.label.threshold = Porcentaje de spam
+administrator.customisation.list.label.spam = Palabras spam 
+
+administrator.customisation.form.button.return = Volver

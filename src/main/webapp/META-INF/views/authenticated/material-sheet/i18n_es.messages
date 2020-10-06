@@ -1,0 +1,12 @@
+
+authenticated.materialSheet.list.label.title = Título
+authenticated.materialSheet.list.label.providerName = Nombre del proveedor
+authenticated.materialSheet.list.label.stars = Estrellas
+
+authenticated.materialSheet.form.label.title = Título:
+authenticated.materialSheet.form.label.providerName = Nombre del proveedor:
+authenticated.materialSheet.form.label.description = Descripción:
+authenticated.materialSheet.form.label.web = Página de inicio:
+authenticated.materialSheet.form.label.stars = Estrellas:
+
+authenticated.materialSheet.form.button.return = Volver

@@ -1,0 +1,121 @@
+
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): End-point not available
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): End-point not available
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [news]
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778): Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [news]
+at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402): [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [news]
+at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:121): Schema-validation: missing table [news]
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'authenticatedNewsController' method 
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale)
+to {[GET, POST] /authenticated/news/{endpoint}}: There is already 'administratorNewsController' bean method
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale) mapped.
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778): Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'authenticatedNewsController' method 
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale)
+to {[GET, POST] /authenticated/news/{endpoint}}: There is already 'administratorNewsController' bean method
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale) mapped.
+at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:618): Ambiguous mapping. Cannot map 'authenticatedNewsController' method 
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale)
+to {[GET, POST] /authenticated/news/{endpoint}}: There is already 'administratorNewsController' bean method
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale) mapped.
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'authenticatedNewsController' method 
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale)
+to {[GET, POST] /authenticated/news/{endpoint}}: There is already 'administratorNewsController' bean method
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale) mapped.
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778): Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'authenticatedNewsController' method 
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale)
+to {[GET, POST] /authenticated/news/{endpoint}}: There is already 'administratorNewsController' bean method
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale) mapped.
+at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:618): Ambiguous mapping. Cannot map 'authenticatedNewsController' method 
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale)
+to {[GET, POST] /authenticated/news/{endpoint}}: There is already 'administratorNewsController' bean method
+public org.springframework.web.servlet.ModelAndView acme.framework.controllers.AbstractController.handleRequest(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale) mapped.
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.catalina.util.LifecycleBase] at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008): Protocol handler start failed
+at sun.nio.ch.Net.bind0(Native Method): Address already in use: bind
+ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] ***************************
+APPLICATION FAILED TO START
+***************************
+Description:
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+Action:
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at acme.framework.utilities.RememberMeLogoutHandler.logout(RememberMeLogoutHandler.java:31): java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;administrator&#47;customisation&#47;form.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.tiles.request.servlet.ServletUtil.wrapServletException(ServletUtil.java:63): JSPException including path '../administrator/customisation/form.jsp'.
+at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;administrator&#47;customisation&#47;form.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;administrator&#47;customisation&#47;form.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;administrator&#47;customisation&#47;form.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[jsp]] at org.apache.tiles.request.servlet.ServletUtil.wrapServletException(ServletUtil.java:63): JSPException including path '../administrator/customisation/form.jsp'.
+at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;administrator&#47;customisation&#47;form.jsp] not found
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:407): File [&#47;META-INF&#47;views&#47;administrator&#47;customisation&#47;form.jsp] not found
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [item_categories] in table [customisation]
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778): Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [item_categories] in table [customisation]
+at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402): [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [item_categories] in table [customisation]
+at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:136): Schema-validation: missing column [item_categories] in table [customisation]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): End-point not available
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [item_categories] in table [customisation]
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778): Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [item_categories] in table [customisation]
+at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:402): [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [item_categories] in table [customisation]
+at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:136): Schema-validation: missing column [item_categories] in table [customisation]
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/acme-fleamarket].[dispatcherServlet]] at acme.framework.utilities.RememberMeLogoutHandler.logout(RememberMeLogoutHandler.java:31): java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): End-point not available
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).

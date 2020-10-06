@@ -1,0 +1,10 @@
+anonymous.lucas-bulletin.list.label.moment = Moment
+anonymous.lucas-bulletin.list.label.author = Author
+anonymous.lucas-bulletin.list.label.text = Text
+
+anonymous.lucas-bulletin.form.label.author = Author:
+anonymous.lucas-bulletin.form.label.text = Text:
+
+anonymous.lucas-bulletin.form.button.create = Create
+anonymous.lucas-bulletin.form.button.return = Return
+

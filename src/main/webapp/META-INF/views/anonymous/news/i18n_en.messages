@@ -1,0 +1,13 @@
+
+anonymous.news.list.label.title	= Title
+anonymous.news.list.label.deadline = Deadline
+
+anonymous.news.form.label.headerPicture	= Header Picture
+anonymous.news.form.label.title	= Title
+anonymous.news.form.label.category	= Category
+anonymous.news.form.label.deadline = Deadline
+anonymous.news.form.label.relatedNews	= Related Webs
+anonymous.news.form.label.body	= Text
+anonymous.news.form.label.picture	= Picture
+
+anonymous.news.form.button.return = Return

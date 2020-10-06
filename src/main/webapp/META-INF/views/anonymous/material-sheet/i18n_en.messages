@@ -1,0 +1,12 @@
+
+anonymous.materialSheet.list.label.title = Title
+anonymous.materialSheet.list.label.providerName = Provider name
+anonymous.materialSheet.list.label.stars = Stars
+
+anonymous.materialSheet.form.label.title = Title:
+anonymous.materialSheet.form.label.providerName = Provider name:
+anonymous.materialSheet.form.label.description = Description:
+anonymous.materialSheet.form.label.homePage = Home page:
+anonymous.materialSheet.form.label.stars = Stars:
+
+anonymous.materialSheet.form.button.return = Return

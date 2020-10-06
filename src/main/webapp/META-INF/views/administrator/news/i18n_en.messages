@@ -1,0 +1,17 @@
+
+administrator.news.list.label.title	= Title
+administrator.news.list.label.deadline = Deadline
+
+administrator.news.form.label.headerPicture	= Header Picture
+administrator.news.form.label.title	= Title
+administrator.news.form.label.category	= Category
+administrator.news.form.label.deadline = Deadline
+administrator.news.form.label.relatedNews	= Related Webs
+administrator.news.form.label.body	= Text
+administrator.news.form.label.picture	= Picture
+
+administrator.news.form.label.accept = Accept
+administrator.news.form.label.create = Confirm that you want to create this news?
+
+
+administrator.news.form.button.return = Return

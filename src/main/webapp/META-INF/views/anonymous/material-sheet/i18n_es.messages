@@ -1,0 +1,12 @@
+
+anonymous.materialSheet.list.label.title = Título
+anonymous.materialSheet.list.label.providerName = Nombre del proveedor
+anonymous.materialSheet.list.label.stars = Estrellas
+
+anonymous.materialSheet.form.label.title = Título:
+anonymous.materialSheet.form.label.providerName = Nombre del proveedor:
+anonymous.materialSheet.form.label.description = Descripción:
+anonymous.materialSheet.form.label.web = Página de inicio:
+anonymous.materialSheet.form.label.stars = Estrellas:
+
+anonymous.materialSheet.form.button.return = Volver

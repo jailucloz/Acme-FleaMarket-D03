@@ -1,0 +1,13 @@
+
+authenticated.news.list.label.title	= Title
+authenticated.news.list.label.deadline = Deadline
+
+authenticated.news.form.label.headerPicture	= Header Picture
+authenticated.news.form.label.title	= Title
+authenticated.news.form.label.category	= Category
+authenticated.news.form.label.deadline = Deadline
+authenticated.news.form.label.relatedNews	= Related Webs
+authenticated.news.form.label.body	= Text
+authenticated.news.form.label.picture	= Picture
+
+authenticated.news.form.button.return = Return

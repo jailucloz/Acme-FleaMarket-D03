@@ -1,0 +1,15 @@
+
+anonymous.advertisement.list.label.title	= Título
+anonymous.advertisement.list.label.deadline = Fecha límite
+
+
+
+anonymous.advertisement.form.label.picture	= Imagen
+anonymous.advertisement.form.label.title	= Título
+anonymous.advertisement.form.label.smallDiscount	= Descuento por volumen pequeño
+anonymous.advertisement.form.label.averageDiscount	= Descuento por volumen medio
+anonymous.advertisement.form.label.largeDiscount	= Descuento por volumen grande
+anonymous.advertisement.form.label.deadline = Se muestra hasta
+anonymous.advertisement.form.label.initialTime = Se muestra desde
+anonymous.advertisement.form.label.creationMoment = Momento de creación
+anonymous.advertisement.form.label.description	= Volver

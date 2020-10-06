@@ -1,0 +1,12 @@
+
+authenticated.toolSheet.list.label.title = Title
+authenticated.toolSheet.list.label.providerName = Provider name
+authenticated.toolSheet.list.label.stars = Stars
+
+authenticated.toolSheet.form.label.title = Title:
+authenticated.toolSheet.form.label.providerName = Provider name:
+authenticated.toolSheet.form.label.description = Description:
+authenticated.toolSheet.form.label.homePage = Home page:
+authenticated.toolSheet.form.label.stars = Stars:
+
+authenticated.toolSheet.form.button.return = Return

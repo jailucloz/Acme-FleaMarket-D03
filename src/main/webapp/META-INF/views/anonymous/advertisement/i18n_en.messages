@@ -1,0 +1,18 @@
+
+anonymous.advertisement.list.label.title	= Title
+anonymous.advertisement.list.label.deadline = Deadline
+
+
+
+anonymous.advertisement.form.label.picture	= Picture
+anonymous.advertisement.form.label.title	= Title
+anonymous.advertisement.form.label.smallDiscount	= Small volume discount
+anonymous.advertisement.form.label.averageDiscount	= Average volume discount
+anonymous.advertisement.form.label.largeDiscount	= Large volume discount
+anonymous.advertisement.form.label.deadline = Display end at
+anonymous.advertisement.form.label.initialTime = Display begin at
+anonymous.advertisement.form.label.creationMoment = Creation moment
+anonymous.advertisement.form.label.description	= Text
+anonymous.advertisement.form.label.picture	= Picture
+
+anonymous.advertisement.form.button.return = Return

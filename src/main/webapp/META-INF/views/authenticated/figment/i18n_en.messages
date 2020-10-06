@@ -1,0 +1,15 @@
+
+authenticated.figment.list.label.title	= Title
+authenticated.figment.list.label.creationMoment = Creation moment
+
+
+
+
+authenticated.figment.form.label.title	= Title
+authenticated.figment.form.label.inventorName	= Inventor name
+authenticated.figment.form.label.creationMoment = Creation moment
+authenticated.figment.form.label.description	= Description
+authenticated.figment.form.label.minMoney	= Minimum price interval
+authenticated.figment.form.label.maxMoney	= Maximum price interval
+
+authenticated.figment.form.button.return = Return

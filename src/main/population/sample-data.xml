@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+- sample-data.xml
+-
+- Copyright (c) 2019 Rafael Corchuelo.
+-
+- In keeping with the traditional purpose of furthering education and research, it is
+- the policy of the copyright owner to permit non-commercial use and redistribution of
+- this software. It has been tested carefully, but it is not guaranteed for any particular
+- purposes.  The copyright owner does not offer any warranties or representations, nor do
+- they accept any liabilities with respect to them.
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<import resource="conversion-service.xml" />
+	
+	<!--  Bulletins -->
+	
+	
+	
+	<bean id="LucasBulletin01" class="acme.entities.bulletins.LucasBulletin">
+		<property name="author" value="Jaime Lucas"/>
+		<property name="text" value="Duis aute irure dolor in reprehenderit in 
+			voluptate velit esse cillum dolore eu fugiat nulla pariatur."/>
+		<property name="moment" value="2019/09/07 00:00"/>
+	</bean>
+	
+	<!--  News -->
+	
+	<bean id="news01" class="acme.entities.news.News">
+		<property name="headerPicture" value="https://exampleimage1.com"/>
+		<property name="title" value="Sample news 01"/>
+		<property name="category" value="Category 01"/>
+		<property name="deadline" value="2029/10/31 14:30"/>
+		<property name="relatedNews" value="https://example01.com"/>
+		<property name="body" value="This is the first body text"/>
+	</bean>	
+	
+	<bean id="news02" class="acme.entities.news.News">
+		<property name="headerPicture" value="https://exampleimage2.com"/>
+		<property name="title" value="Sample news 02"/>
+		<property name="category" value="Category 02"/>
+		<property name="deadline" value="2021/10/31 14:30"/>
+		<property name="relatedNews" value="https://example.com"/>
+		<property name="body" value="This is the second body text"/>
+	</bean>
+	
+	<bean id="news03" class="acme.entities.news.News">
+		<property name="headerPicture" value="https://exampleimage3.com"/>
+		<property name="title" value="Sample news 03"/>
+		<property name="category" value="Category 03"/>
+		<property name="deadline" value="2039/10/31 14:30"/>
+		<property name="relatedNews" value="https://google.com"/>
+		<property name="body" value="This is the third body text"/>
+	</bean>
+	
+	<bean id="news04" class="acme.entities.news.News">
+		<property name="headerPicture" value="https://exampleimage4.com"/>
+		<property name="title" value="Sample news 04"/>
+		<property name="category" value="Category 04"/>
+		<property name="deadline" value="2019/10/31 14:30"/>
+		<property name="relatedNews" value="https://google.com"/>
+		<property name="body" value="This is the 4rd body text"/>
+	</bean>
+	
+	<!--  Material Sheet -->
+	
+	<bean id="materialSheet01" class="acme.entities.materialSheets.MaterialSheet">
+		<property name="title" value="Sample material sheet 01"/>
+		<property name="providerName" value="Manolo SL"/>
+		<property name="description" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+		<property name="homePage" value="http://example.org/"/>
+		<property name="stars" value="0"/>
+	</bean>
+	
+	<bean id="materialSheet02" class="acme.entities.materialSheets.MaterialSheet">
+		<property name="title" value="Sample material sheet 02"/>
+		<property name="providerName" value="Acme Corp."/>
+		<property name="description" value="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
+		<property name="homePage" value="http://example2.org/"/>
+		<property name="stars" value="3"/>
+	</bean>
+	
+	
+	<bean id="materialSheet03" class="acme.entities.materialSheets.MaterialSheet">
+		<property name="title" value="Sample material sheet 03"/>
+		<property name="providerName" value="Infinitum Ltd"/>
+		<property name="description" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+		<property name="homePage" value="http://example3.org/"/>
+		<property name="stars" value="5"/>
+	</bean>
+	
+	
+	<!--  Tool Sheet -->
+	
+	<bean id="toolSheet01" class="acme.entities.toolSheets.ToolSheet">
+		<property name="title" value="Sample tool sheet 01"/>
+		<property name="providerName" value="Manolo SL"/>
+		<property name="description" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+		<property name="homePage" value="http://example.org/"/>
+		<property name="stars" value="0"/>
+	</bean>
+	
+	<bean id="toolSheet02" class="acme.entities.toolSheets.ToolSheet">
+		<property name="title" value="Sample tool sheet 02"/>
+		<property name="providerName" value="Acme Corp."/>
+		<property name="description" value="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
+		<property name="homePage" value="http://example2.org/"/>
+		<property name="stars" value="3"/>
+	</bean>
+	
+	
+	<bean id="toolSheet03" class="acme.entities.toolSheets.ToolSheet">
+		<property name="title" value="Sample tool sheet 03"/>
+		<property name="providerName" value="Infinitum Ltd"/>
+		<property name="description" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+		<property name="homePage" value="http://example3.org/"/>
+		<property name="stars" value="5"/>
+	</bean>
+	
+	
+	
+	<!-- Advertisement  -->
+	
+	<bean id="advertisement01" class="acme.entities.advertisements.Advertisement">
+		<property name="picture" value="https://exampleimage1.com"/>
+		<property name="title" value="Sample advertisement 01"/>
+		<property name="deadline" value="2029/10/28 14:30"/>
+		<property name="initialTime" value="2020/09/05 14:30"/>
+		<property name="creationMoment" value="2019/10/29 14:30"/>
+		<property name="smallDiscount" value="10000.00 €"/>
+		<property name="averageDiscount" value="20000.00 €"/>
+		<property name="largeDiscount" value="30000.00 €"/>
+		<property name="description" value="This is the first body text"/>
+	</bean>	
+	
+	<bean id="advertisement02" class="acme.entities.advertisements.Advertisement">
+		<property name="picture" value="https://exampleimage2.com"/>
+		<property name="title" value="Sample advertisement 02"/>
+		<property name="deadline" value="2029/09/28 14:30"/>
+		<property name="initialTime" value="2020/08/05 14:30"/>
+		<property name="creationMoment" value="2019/10/29 14:30"/>
+		<property name="smallDiscount" value="11000.00 €"/>
+		<property name="averageDiscount" value="21000.00 €"/>
+		<property name="largeDiscount" value="31000.00 €"/>
+		<property name="description" value="This is the second body text"/>
+	</bean>	
+	
+	
+	<bean id="advertisement03" class="acme.entities.advertisements.Advertisement">
+		<property name="picture" value="https://exampleimage3.com"/>
+		<property name="title" value="Sample advertisement 03"/>
+		<property name="deadline" value="2020/08/28 14:30"/>
+		<property name="initialTime" value="2020/01/05 14:30"/>
+		<property name="creationMoment" value="2019/10/29 14:30"/>
+		<property name="smallDiscount" value="10200.00 €"/>
+		<property name="averageDiscount" value="22000.00 €"/>
+		<property name="largeDiscount" value="32000.00 €"/>
+		<property name="description" value="This is the thirst body text"/>
+	</bean>	
+	
+	
+	<!-- Suggestion  -->
+	
+	<bean id="suggestion01" class="acme.entities.suggestions.Suggestion">
+		<property name="title" value="Sample suggestion 01"/>
+		<property name="description" value="This is the first description"/>
+		<property name="creationMoment" value="2018/05/10 14:30"/>
+		<property name="email" value="example1@email.com"/>
+	</bean>	
+	
+	<bean id="suggestion02" class="acme.entities.suggestions.Suggestion">
+		<property name="title" value="Sample suggestion 02"/>
+		<property name="description" value="This is the second description"/>
+		<property name="creationMoment" value="2019/05/10 14:30"/>
+		<property name="email" value="example2@email.com"/>
+	</bean>	
+	
+	<bean id="suggestion03" class="acme.entities.suggestions.Suggestion">
+		<property name="title" value="Sample suggestion 03"/>
+		<property name="description" value="This is the thirst description"/>
+		<property name="creationMoment" value="2020/05/10 14:30"/>
+		<property name="email" value="example3@email.com"/>
+	</bean>	
+	
+	<!-- Figments  -->
+	
+	<bean id="figment01" class="acme.entities.figments.Figment">
+		<property name="title" value="Sample figment 01"/>
+		<property name="description" value="This is the first description"/>
+		<property name="creationMoment" value="2018/05/10 14:30"/>
+		<property name="inventorName" value="Elon Musk"/>
+		<property name="minMoney"  value="120.00 €"/>
+		<property name="maxMoney"  value="140.00 €"/>
+	</bean>	
+	
+	<bean id="figment02" class="acme.entities.figments.Figment">
+		<property name="title" value="Sample figment 02"/>
+		<property name="description" value="This is the second description"/>
+		<property name="creationMoment" value="2017/05/10 14:30"/>
+		<property name="inventorName" value="Leonardo Da Vinci"/>
+		<property name="minMoney"  value="180.00 €"/>
+		<property name="maxMoney"  value="200.00 €"/>
+	</bean>	
+	
+	<bean id="figment03" class="acme.entities.figments.Figment">
+		<property name="title" value="Sample figment 01"/>
+		<property name="description" value="This is the thirst description"/>
+		<property name="creationMoment" value="2019/04/20 14:30"/>
+		<property name="inventorName" value="Jhon Doe"/>
+		<property name="minMoney"  value="130.00 €"/>
+		<property name="maxMoney"  value="175.00 €"/>
+	</bean>	
+	
+	<!-- Customisation -->
+	
+	<bean id="Customisation" class="acme.entities.customisations.Customisation">
+		<property name="spam" value="sex,hard core,viagra,cialis,nigeria,you've won,million dollar,sexo,duro,has ganado,millón de dólares"/>
+		<property name="threshold" value="2.50"/>
+		<property name="itemCategories" value="Toilette,Kitchen,Living room,Sleeping room,Garden"/>
+		<property name="newsCategories" value="Breaking news, Important news, Warning,Information"/>
+		
+	</bean>
+	
+
+</beans>

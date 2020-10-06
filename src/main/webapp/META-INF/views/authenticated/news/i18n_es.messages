@@ -1,0 +1,13 @@
+
+authenticated.news.list.label.title	= Título 
+authenticated.news.list.label.deadline = Fecha de fin
+
+
+authenticated.news.form.label.headerPicture	= Imagen de cabecera
+authenticated.news.form.label.title	= Título
+authenticated.news.form.label.category	= Categoria
+authenticated.news.form.label.deadline = Fecha de fin
+authenticated.news.form.label.body	= Texto
+authenticated.news.form.label.picture	= Imagen
+
+authenticated.news.form.button.return = Volver

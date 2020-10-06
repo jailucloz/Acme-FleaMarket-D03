@@ -1,0 +1,12 @@
+
+authenticated.toolSheet.list.label.title = Título
+authenticated.toolSheet.list.label.providerName = Nombre del proveedor
+authenticated.toolSheet.list.label.stars = Estrellas
+
+authenticated.toolSheet.form.label.title = Título:
+authenticated.toolSheet.form.label.providerName = Nombre del proveedor:
+authenticated.toolSheet.form.label.description = Descripción:
+authenticated.toolSheet.form.label.web = Página de inicio:
+authenticated.toolSheet.form.label.stars = Estrellas:
+
+authenticated.toolSheet.form.button.return = Volver

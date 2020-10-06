@@ -1,0 +1,16 @@
+
+administrator.news.list.label.title	= Título 
+administrator.news.list.label.deadline = Fecha de fin
+
+
+administrator.news.form.label.headerPicture	= Imagen de cabecera
+administrator.news.form.label.title	= Título
+administrator.news.form.label.category	= Categoria
+administrator.news.form.label.deadline = Fecha de fin
+administrator.news.form.label.body	= Texto
+administrator.news.form.label.picture	= Imagen
+
+administrator.news.form.label.accept = Aceptar
+administrator.news.form.label.create = ¿Confirma que quiere crear esta noticia?
+
+administrator.news.form.button.return = Volver

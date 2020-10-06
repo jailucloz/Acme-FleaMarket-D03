@@ -1,0 +1,13 @@
+
+anonymous.news.list.label.title	= Título 
+anonymous.news.list.label.deadline = Fecha de fin
+
+
+anonymous.news.form.label.headerPicture	= Imagen de cabecera
+anonymous.news.form.label.title	= Título
+anonymous.news.form.label.category	= Categoria
+anonymous.news.form.label.deadline = Fecha de fin
+anonymous.news.form.label.body	= Texto
+anonymous.news.form.label.picture	= Imagen
+
+anonymous.news.form.button.return = Volver

@@ -1,0 +1,15 @@
+
+authenticated.advertisement.list.label.title	= Título
+authenticated.advertisement.list.label.deadline = Fecha límite
+
+
+
+authenticated.advertisement.form.label.picture	= Imagen
+authenticated.advertisement.form.label.title	= Título
+authenticated.advertisement.form.label.smallDiscount	= Descuento por volumen pequeño
+authenticated.advertisement.form.label.averageDiscount	= Descuento por volumen medio
+authenticated.advertisement.form.label.largeDiscount	= Descuento por volumen grande
+authenticated.advertisement.form.label.deadline = Se muestra hasta
+authenticated.advertisement.form.label.initialTime = Se muestra desde
+authenticated.advertisement.form.label.creationMoment = Momento de creación
+authenticated.advertisement.form.label.description	= Volver
