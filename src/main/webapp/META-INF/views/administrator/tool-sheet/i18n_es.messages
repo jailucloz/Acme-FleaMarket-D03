@@ -1,0 +1,19 @@
+
+administrator.toolSheets.list.label.title	= Título
+administrator.toolSheets.list.label.providerName = Nombre del proveedor
+
+
+administrator.toolSheets.form.label.title	= Título
+administrator.toolSheets.form.label.providerName	= Nombre del proveedor
+administrator.toolSheets.form.label.description = Descripción
+administrator.toolSheets.form.label.homePage	= Página de inicio
+administrator.toolSheets.form.label.stars = Estrellas
+
+
+
+
+administrator.toolSheets.form.button.create = Crear
+administrator.toolSheets.form.button.update = Actualizar
+administrator.toolSheets.form.button.delete = Eliminar
+
+administrator.toolSheets.form.button.return = Volver

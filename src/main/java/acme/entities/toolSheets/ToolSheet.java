@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.URL;
 
@@ -38,6 +39,7 @@ public class ToolSheet extends DomainEntity {
 	@URL
 	private String				homePage;
 
+	@NotNull
 	@Min(0)
 	@Max(5)
 	private Integer				stars;

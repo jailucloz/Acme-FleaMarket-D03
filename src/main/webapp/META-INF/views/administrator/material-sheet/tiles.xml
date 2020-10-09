@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<!DOCTYPE tiles-definitions PUBLIC 
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="administrator/material-sheet/list" extends="master">
+		<put-attribute name="body" type="template" value="../administrator/material-sheet/list.jsp"/>
+	</definition>
+	
+	
+	<definition name="administrator/material-sheet/form" extends="master">
+		<put-attribute name="body" type="template" value="../administrator/material-sheet/form.jsp"/>
+	</definition>
+	
+</tiles-definitions>

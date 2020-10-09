@@ -30,6 +30,10 @@ master.menu.sign-out = Salir
 
 master.menu.anonymous = Anónimo
 
+master.menu.anonymous.news.list = Lista de noticias
+master.menu.anonymous.material-sheet.list = Lista de hojas de materiales
+master.menu.anonymous.tool-sheet.list = Lista de hojas de herramientas
+master.menu.anonymous.advertisement.list = Lista de anuncios
 
 master.menu.anonymous.favourite-link.jaime = Enlace favorito de Jaime
 
@@ -46,6 +50,35 @@ master.menu.anonymous.bulletin.lucas.create = Crear boletín de Lucas
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
+
+
+master.menu.administrator.customisation = Mostrar personalización
+master.menu.administrator.advertisement.create = Crear anuncio
+master.menu.administrator.advertisement.list = Lista de anuncios
+master.menu.administrator.figment.create = Crear producto
+master.menu.administrator.figment.list = Lista de productos
+master.menu.administrator.material-sheet.create = Crear hoja de materiales
+master.menu.administrator.material-sheet.list = Lista de hojas de materiales
+master.menu.administrator.news.create = Crear noticias
+master.menu.administrator.news.list = Lista de noticias
+master.menu.administrator.tool-sheet.create = Crear hoja de herramientas
+master.menu.administrator.tool-sheet.list = Lista de hojas de herramientas
+master.menu.administrator.suggestion.create = Crear sugerencia
+master.menu.administrator.suggestion.list = Lista de sugerencias
+
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Autenticado
+master.menu.authenticated.news.list = Lista de noticias
+master.menu.authenticated.material-sheet.list = Lista de hojas de materiales
+master.menu.authenticated.tool-sheet.list = Lista de hojas de herramientas
+master.menu.authenticated.advertisement.list= Lista de anuncios
+master.menu.authenticated.suggestion.list = Lista de sugerencias
+master.menu.authenticated.figment.list = Lista de productos
+
+
+
 
 # master.menu.provider ########################################################
 

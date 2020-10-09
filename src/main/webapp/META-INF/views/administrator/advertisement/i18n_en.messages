@@ -1,0 +1,25 @@
+
+administrator.advertisement.list.label.title	= Title
+administrator.advertisement.list.label.deadline = Deadline
+
+
+administrator.advertisement.form.label.title	= Title
+administrator.advertisement.form.label.creationMoment	= Creation moment
+administrator.advertisement.form.label.description = Description
+
+
+administrator.advertisement.form.label.picture = Picture
+administrator.advertisement.form.label.initialTime = Initial time display  period
+administrator.advertisement.form.label.deadline = Deadline display period
+administrator.advertisement.form.label.smallDiscount = Small volume discount
+administrator.advertisement.form.label.averageDiscount = Average volume discount
+administrator.advertisement.form.label.largeDiscount = Large volume discount
+
+administrator.advertisement.form.button.create = Create
+administrator.advertisement.form.button.update = Update
+administrator.advertisement.form.button.delete = Delete
+
+
+
+
+administrator.advertisement.form.button.return = Return

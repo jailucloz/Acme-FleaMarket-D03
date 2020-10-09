@@ -1,0 +1,18 @@
+
+administrator.materialSheets.list.label.title	= Título
+administrator.materialSheets.list.label.providerName = Nombre del proveedor
+
+
+administrator.materialSheets.form.label.title	= Título
+administrator.materialSheets.form.label.providerName	= Nombre del proveedor
+administrator.materialSheets.form.label.description = Descripción
+administrator.materialSheets.form.label.homePage	= Página de inicio
+administrator.materialSheets.form.label.stars = Estrellas
+
+
+administrator.materialSheets.form.button.create = Crear
+administrator.materialSheets.form.button.update = Actualizar
+administrator.materialSheets.form.button.delete = Eliminar
+
+
+administrator.materialSheets.form.button.return = Return

@@ -30,7 +30,7 @@ public class AdministratorCustomisationDisplayService implements AbstractShowSer
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-		request.unbind(entity, model, "spam");
+		request.unbind(entity, model, "spam", "itemCategories", "newsCategories");
 		DecimalFormat numberFormat = new DecimalFormat("#.00");
 		StringBuilder thresholdPercent = new StringBuilder();
 		thresholdPercent.append(numberFormat.format(entity.getThreshold()));

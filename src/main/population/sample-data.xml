@@ -207,7 +207,7 @@
 	</bean>	
 	
 	<bean id="figment03" class="acme.entities.figments.Figment">
-		<property name="title" value="Sample figment 01"/>
+		<property name="title" value="Sample figment 03"/>
 		<property name="description" value="This is the thirst description"/>
 		<property name="creationMoment" value="2019/04/20 14:30"/>
 		<property name="inventorName" value="Jhon Doe"/>
@@ -218,10 +218,10 @@
 	<!-- Customisation -->
 	
 	<bean id="Customisation" class="acme.entities.customisations.Customisation">
-		<property name="spam" value="sex,hard core,viagra,cialis,nigeria,you've won,million dollar,sexo,duro,has ganado,millón de dólares"/>
+		<property name="spam" value="sex, hard core, viagra, cialis, nigeria, you've won, million dollar, sexo, duro, has ganado, millón de dólares"/>
 		<property name="threshold" value="2.50"/>
-		<property name="itemCategories" value="Toilette,Kitchen,Living room,Sleeping room,Garden"/>
-		<property name="newsCategories" value="Breaking news, Important news, Warning,Information"/>
+		<property name="itemCategories" value="Toilette, Kitchen, Living room, Sleeping room, Garden"/>
+		<property name="newsCategories" value="Breaking news, Important news, Warning, Information"/>
 		
 	</bean>
 	

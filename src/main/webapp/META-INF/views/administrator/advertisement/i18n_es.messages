@@ -1,0 +1,24 @@
+
+administrator.advertisement.list.label.title	= Título
+administrator.advertisement.list.label.deadline = Fecha límite
+
+
+administrator.advertisement.form.label.title	= Título
+administrator.advertisement.form.label.creationMoment	= Momento de creación
+administrator.advertisement.form.label.description = Descripción
+
+administrator.advertisement.form.label.picture = Imagen
+administrator.advertisement.form.label.initialTime = Tiempo inicial para visualización
+administrator.advertisement.form.label.deadline = Tiempo final para visualización
+administrator.advertisement.form.label.smallDiscount = Descuento por volumen pequeño
+administrator.advertisement.form.label.averageDiscount = Descuento por volumen medio
+administrator.advertisement.form.label.largeDiscount = Descuento por volumen grande
+
+administrator.advertisement.form.button.create = Crear
+administrator.advertisement.form.button.update = Actualizar
+administrator.advertisement.form.button.delete = Eliminar
+
+
+
+
+administrator.advertisement.form.button.return = Volver

@@ -27,6 +27,7 @@
 	<acme:form-checkbox  code="administrator.news.form.label.accept" path="accept"/>
 	</jstl:if>
 	
+
 	<acme:form-submit test="${command == 'create'}" code="administrator.news.form.button.create" 
 						action="/administrator/news/create"/>
 	

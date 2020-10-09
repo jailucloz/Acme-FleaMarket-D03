@@ -10,7 +10,9 @@ administrator.news.form.label.deadline = Fecha de fin
 administrator.news.form.label.body	= Texto
 administrator.news.form.label.picture	= Imagen
 
-administrator.news.form.label.accept = Aceptar
-administrator.news.form.label.create = ¿Confirma que quiere crear esta noticia?
+administrator.news.error.must-accept = Las condiciones deben ser aceptadas
+
+administrator.news.form.label.accept = ¿Confirma que quiere crear esta noticia?
+administrator.news.form.button.create = Crear 
 
 administrator.news.form.button.return = Volver

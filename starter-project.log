@@ -119,3 +119,81 @@ ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fle
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
 ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): End-point not available
 WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'administratorFigmentsController': Invocation of init method failed; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsCreateService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsUpdateService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsDeleteService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsListService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsShowService)
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139): Error creating bean with name 'administratorFigmentsController': Invocation of init method failed; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsCreateService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsUpdateService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsDeleteService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsListService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsShowService)
+at acme.features.administrator.figments.AdministratorFigmentsController.initialise(AdministratorFigmentsController.java:38): Unresolved compilation problems: 
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsCreateService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsUpdateService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsDeleteService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsListService)
+	The method addBasicCommand(BasicCommand, AbstractService<Administrator,Figment>) in the type AbstractController<Administrator,Figment> is not applicable for the arguments (BasicCommand, AdministratorFigmentsShowService)
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] SQL Error: 1406, SQLState: 22001
+ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] Data truncation: Data too long for column 'description' at row 1
+ERROR [org.hibernate.internal.ExceptionMapperStandardImpl] HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:300): could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:52): could not execute statement
+com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104): Data truncation: Data too long for column 'description' at row 1
+WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] SQL Error: 1406, SQLState: 22001
+ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] Data truncation: Data too long for column 'description' at row 1
+ERROR [org.hibernate.internal.ExceptionMapperStandardImpl] HHH000346: Error during managed flush [org.hibernate.exception.DataException: could not execute statement]
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP POST /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:300): could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:52): could not execute statement
+com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104): Data truncation: Data too long for column 'description' at row 1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): Access is not authorised
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError
+WARN [com.zaxxer.hikari.pool.HikariPool] {} - Thread starvation or clock leap detected (housekeeper delta={}).
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): End-point not available
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] HTTP GET /acme-fleamarket/META-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.META_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:40): End-point not available

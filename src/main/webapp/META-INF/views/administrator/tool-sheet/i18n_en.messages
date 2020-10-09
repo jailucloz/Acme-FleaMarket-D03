@@ -1,0 +1,19 @@
+
+administrator.toolSheets.list.label.title	= Title
+administrator.toolSheets.list.label.providerName = Provider name
+
+
+administrator.toolSheets.form.label.title	= Title
+administrator.toolSheets.form.label.providerName	= Provider name
+administrator.toolSheets.form.label.description = Description
+administrator.toolSheets.form.label.homePage	= Home page
+administrator.toolSheets.form.label.stars = Stars
+
+
+
+administrator.toolSheets.form.button.create = Create
+administrator.toolSheets.form.button.update = Update
+administrator.toolSheets.form.button.delete = Delete
+
+
+administrator.toolSheets.form.button.return = Return

@@ -1,0 +1,22 @@
+
+administrator.figment.list.label.title	= Title
+administrator.figment.list.label.creationMoment = Creation moment
+
+
+
+administrator.figment.form.label.title	= Title
+administrator.figment.form.label.creationMoment	= Creation moment
+administrator.figment.form.label.description = Description
+administrator.figment.form.label.inventorName = Inventor name
+administrator.figment.form.label.minMoney	= Minimum money amount
+administrator.figment.form.label.maxMoney	= Maximum money amount
+
+
+administrator.figment.form.button.update = Update
+administrator.figment.form.button.delete = Delete
+administrator.figment.form.button.create = Create
+
+
+
+
+administrator.figment.form.button.return = Return

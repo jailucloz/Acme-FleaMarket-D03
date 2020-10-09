@@ -1,0 +1,20 @@
+
+administrator.suggestion.list.label.title	= Título
+administrator.suggestion.list.label.creationMoment = Momento de creación
+
+
+administrator.suggestion.form.label.title	= Título
+administrator.suggestion.form.label.creationMoment	= Momento de creación
+administrator.suggestion.form.label.description = Descripción
+administrator.suggestion.form.label.email	= Email
+
+
+
+
+
+administrator.suggestion.form.button.create = Crear
+administrator.suggestion.form.button.update = Actualizar
+administrator.suggestion.form.button.delete = Elminar
+
+
+administrator.suggestion.form.button.return = Volver
