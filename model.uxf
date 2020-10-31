@@ -302,14 +302,131 @@ has v</panel_attributes>
       <x>357</x>
       <y>399</y>
       <w>217</w>
-      <h>56</h>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>LucasBulletin
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+LucasBulletin
 --
 + moment: Date {Temporal(TIMESTAMP), Past}
 + author: String {NotBlank}
 + text: String {NotBlank}
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>532</y>
+      <w>252</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+News
+--
++ newsCategory: String {NotBlank}
++ headerPicture: String {NotBlank, URL}
++ creationMoment: Date {Temporal(TIMESTAMP), Past}
++ deadline: Date {Temporal(TIMESTAMP)}
++ body: String {NotBlank}
++ relatedLinks: String {NotBlank, URL}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>973</x>
+      <y>532</y>
+      <w>217</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Material Sheet
+--
++ title: String {NotBlank}
++ description: String {NotBlank}
++ providerName: String {NotBlank}
++ homePage: String {NotBlank, URL}
++ stars: Integer {min(0), max(5)} 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>973</x>
+      <y>728</y>
+      <w>217</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Tool Sheet
+--
++ title: String {NotBlank}
++ description: String {NotBlank}
++ providerName: String {NotBlank}
++ homePage: String {NotBlank, URL}
++ stars: Integer {min(0), max(5)} 
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>735</y>
+      <w>252</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Advertisement
+--
++ title: String {NotBlank}
++ picture: String {NotBlank, URL}
++ creationMoment: Date {Temporal(TIMESTAMP), Past}
++ initialTime: Date {Temporal(TIMESTAMP)}
++ deadline: Date {Temporal(TIMESTAMP)}
++ description: String {NotBlank}
++ smallDiscount: Money {NotNull}
++ averageDiscount: Money {NotNull}
++ largeDiscount: Money {NotNull}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>574</x>
+      <y>728</y>
+      <w>252</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Suggestion
+--
++ title: String {NotBlank}
++ creationMoment: Date {Temporal(TIMESTAMP), Past}
++ description: String {NotBlank}
++ email: String {NotBlank, Email}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>574</x>
+      <y>539</y>
+      <w>252</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Figment
+--
++ title: String {NotBlank}
++ creationMoment: Date {Temporal(TIMESTAMP), Past}
++ inventorName: String {NotBlank}
++ description: String {NotBlank}
++ minMoney: Money {NotNull}
++ maxMoney: Money {NotNull}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
