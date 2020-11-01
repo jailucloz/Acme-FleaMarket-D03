@@ -29,11 +29,11 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-
-master.menu.anonymous.news.list = News list
+master.menu.anonymous.news.list = Active news list
 master.menu.anonymous.material-sheet.list = Material sheets list
-master.menu.anonymous.tool-sheet.list = Tool sheets list 
-master.menu.anonymous.advertisement.list = Advertisements list 
+master.menu.anonymous.tool-sheet.list = Tool sheets list
+master.menu.anonymous.advertisement.list = Active advertisements list
+
 master.menu.anonymous.favourite-link.jaime = Jaime's favourite link
 
 # master.menu.anonymous.bulletin #######################################################
@@ -44,38 +44,30 @@ master.menu.anonymous.bulletin = Bulletins
 master.menu.anonymous.bulletin.lucas = Lucas Bulletin
 master.menu.anonymous.bulletin.lucas.create = Create Lucas Bulletin
 
-# master.menu.administrator ###################################################
-
-master.menu.administrator = Administrator
-master.menu.administrator.user-accounts = User accounts
-master.menu.administrator.shutdown = Shut down
-
-master.menu.administrator.customisation = Show customisation
-master.menu.administrator.advertisement.create = Create advertisement
-master.menu.administrator.advertisement.list = Advertisements list
-master.menu.administrator.figment.create = Create figment
-master.menu.administrator.figment.list = Figments list
-master.menu.administrator.material-sheet.create = Create material sheet
-master.menu.administrator.material-sheet.list = Material sheets list
-master.menu.administrator.news.create = Create news
-master.menu.administrator.news.list = News list
-master.menu.administrator.tool-sheet.create = Create tool sheet
-master.menu.administrator.tool-sheet.list = Tool sheets list
-master.menu.administrator.suggestion.create = Create suggestion
-master.menu.administrator.suggestion.list = Suggestions list
-
-
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated
-master.menu.authenticated.news.list = News list
+master.menu.authenticated.news.list = Active news list
 master.menu.authenticated.material-sheet.list = Material sheets list
 master.menu.authenticated.tool-sheet.list = Tool sheets list
-master.menu.authenticated.advertisement.list= Advertisement list
-master.menu.authenticated.suggestion.list = Suggestion list
-master.menu.authenticated.figment.list = Figment list
+master.menu.authenticated.tool-advertisement.list = Advertisements list
+master.menu.authenticated.suggestion.list = Suggestions list
+master.menu.authenticated.figment.list = Figments list
+master.menu.authenticated.advertisement.list = Active advertisements list
 
+# master.menu.administrator ###################################################
 
+master.menu.administrator.customisation.display = Customisation parameters display
+master.menu.administrator = Administrator
+master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.news.list = News list
+master.menu.administrator.shutdown = Shut down
+master.menu.administrator.news.create = Create news
+master.menu.administrator.material-sheet.create = Create material sheet
+master.menu.administrator.tool-sheet.create  = Create tool sheet
+master.menu.administrator.advertisement.create = Create advertisement
+master.menu.administrator.figment.create =  Create figment
+master.menu.administrator.suggestion.create = Create suggestion 
 
 # master.menu.provider ########################################################
 

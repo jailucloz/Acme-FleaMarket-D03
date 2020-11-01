@@ -17,12 +17,6 @@ import acme.framework.entities.Administrator;
 @RequestMapping("/administrator/customisation/")
 public class AdministratorCustomisationController extends AbstractController<Administrator, Customisation> {
 
-	//	@Autowired
-	//	private AdministratorCustomisationListService		listService;
-	//	@Autowired
-	//	private AdministratorCustomisationShowService		showService;
-	//	@Autowired
-	//	private AdministratorCustomisationListMainService	listMainService;
 	@Autowired
 	private AdministratorCustomisationDisplayService displayService;
 
@@ -31,9 +25,7 @@ public class AdministratorCustomisationController extends AbstractController<Adm
 
 	@PostConstruct
 	private void initialise() {
-		//super.addBasicCommand(BasicCommand.LIST, this.listService);
-		//super.addBasicCommand(BasicCommand.SHOW, this.showService);
-		//super.addCustomCommand(CustomCommand.LIST_MAIN, BasicCommand.LIST, this.listMainService);
+
 		super.addCustomCommand(CustomCommand.DISPLAY, BasicCommand.SHOW, this.displayService);
 	}
 }
