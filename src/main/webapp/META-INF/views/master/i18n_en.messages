@@ -69,6 +69,12 @@ master.menu.administrator.advertisement.create = Create advertisement
 master.menu.administrator.figment.create =  Create figment
 master.menu.administrator.suggestion.create = Create suggestion 
 
+master.menu.administrator.material-sheet.list = List material sheet
+master.menu.administrator.advertisement.list = List advertisement
+master.menu.administrator.figment.list =  List figment
+master.menu.administrator.suggestion.list = List suggestion 
+master.menu.administrator.tool-sheet.list  = List tool sheet
+
 # master.menu.provider ########################################################
 
 master.menu.provider = Provider

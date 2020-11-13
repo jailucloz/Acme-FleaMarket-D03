@@ -3,5 +3,5 @@ administrator.customisation.form.label.spamThreshold = Threshold:
 administrator.customisation.form.label.itemCategories = Item categories:
 administrator.customisation.form.label.newsCategories = News categories:
 
-
+administrator.customisation.form.button.update  = Update
 administrator.customisation.form.button.return = Return 
