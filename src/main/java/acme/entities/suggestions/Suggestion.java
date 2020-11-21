@@ -9,6 +9,7 @@ import javax.persistence.TemporalType;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
@@ -35,6 +36,7 @@ public class Suggestion extends DomainEntity {
 	private Date				creationMoment;
 
 	@NotBlank
+	@Size(min = 1, max = 256)
 	private String				description;
 
 	@NotBlank

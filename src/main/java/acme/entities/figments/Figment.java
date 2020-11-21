@@ -8,6 +8,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
@@ -38,6 +39,7 @@ public class Figment extends DomainEntity {
 	private String				inventorName;
 
 	@NotBlank
+	@Size(min = 1, max = 256)
 	private String				description;
 
 	@NotNull
