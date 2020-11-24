@@ -66,6 +66,7 @@ master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.news.create = Crear noticia
 master.menu.administrator.material-sheet.create = Crear hoja de material
 master.menu.administrator.tool-sheet.create  = Crear hoja de herramienta
+master.menu.administrator.tool-sheet.list = Lista de hojas de herramienta
 master.menu.administrator.advertisement.create = Crear anuncio
 master.menu.administrator.figment.create =  Crear producto
 master.menu.administrator.suggestion.create = Crear sugerencia

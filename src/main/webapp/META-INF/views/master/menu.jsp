@@ -64,6 +64,8 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.tool-sheet.create" action="/administrator/tool-sheet/create"/>
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.tool-sheet.list" action="/administrator/tool-sheet/list"/>
+			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.advertisement.create" action="/administrator/advertisement/create"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.advertisement.list" action="/administrator/advertisement/list"/>

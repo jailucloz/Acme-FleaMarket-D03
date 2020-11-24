@@ -41,7 +41,7 @@ public class AdministratorAdvertisementListService implements AbstractListServic
 
 		Collection<Advertisement> result;
 
-		result = this.repository.findManyActive();
+		result = this.repository.findMany();
 
 		return result;
 	}

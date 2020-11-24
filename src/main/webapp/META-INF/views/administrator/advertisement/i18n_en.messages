@@ -20,6 +20,14 @@ administrator.advertisement.form.button.update = Update
 administrator.advertisement.form.button.delete = Delete
 
 
-
+errors.advertisement.deadline.future = Deadline must be in future
+errors.advertisement.initialTime.future = Initial time must be in future
+errors.advertisement.smallDiscount.euro = The money must be in euro '€' / 'EUR'
+errors.advertisement.averageDiscount.money.euro = The money must be in euro '€' / 'EUR'
+errors.advertisement.largeDiscount.money.euro = The money must be in euro '€' / 'EUR'
+errors.advertisement.smallDiscount.positive = The amount must be positive
+errors.advertisement.averageDiscount.positive = The amount must be positive
+errors.advertisement.largeDiscount.positive = The amount must be positive
+errors.advertisement.deadlineAfterInitial.future = Deadline must be after the initial time
 
 administrator.advertisement.form.button.return = Return

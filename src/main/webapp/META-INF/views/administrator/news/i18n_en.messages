@@ -10,6 +10,8 @@ administrator.news.form.label.relatedNews	= Related webs
 administrator.news.form.label.body	= Text
 administrator.news.form.label.picture	= Picture
 
+
+administrator.news.error.no-future = Deadline must be a future date
 administrator.news.error.must-accept = Conditions must be accepted
 
 administrator.news.form.label.accept = Confirm that you want to create this news?

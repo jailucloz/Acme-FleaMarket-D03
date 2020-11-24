@@ -27,7 +27,14 @@ public class AdministratorAdvertisementUpdateService implements AbstractUpdateSe
 	@Override
 	public boolean authorise(final Request<Advertisement> request) {
 		assert request != null;
-		return true;
+
+		Date moment = new Date(System.currentTimeMillis() - 1);
+
+		Advertisement advertisement = this.repository.findOneById(request.getModel().getInteger("id"));
+		Boolean isActive = advertisement.getDeadline().after(moment) && advertisement.getInitialTime().before(moment);
+
+		return isActive;
+
 	}
 
 	@Override
@@ -68,30 +75,36 @@ public class AdministratorAdvertisementUpdateService implements AbstractUpdateSe
 		assert errors != null;
 
 		if (!errors.hasErrors()) {
-			Boolean isEuroSmall, isEuroAverage, isEuroLarge, isFuture, isPositiveSmall, isPositiveAverage, isPositiveLarge;
+			Boolean isEuroSmall, isEuroAverage, isEuroLarge, isFuture, isFuture2, isDeadlineAfterInitialTime, isPositiveSmall, isPositiveAverage, isPositiveLarge;
 
 			Date fechaActual;
 			fechaActual = new Date();
 			isFuture = entity.getDeadline().after(fechaActual);
-			errors.state(request, isFuture, "deadline", "errors.inquire.deadline.future", "Deadline must be in future");
+			errors.state(request, isFuture, "deadline", "errors.advertisement.deadline.future", "Deadline must be in future");
+
+			isFuture2 = entity.getInitialTime().after(fechaActual);
+			errors.state(request, isFuture2, "initialTime", "errors.advertisement.initialTime.future", "Initial time must be in future");
+
+			isDeadlineAfterInitialTime = entity.getDeadline().after(entity.getInitialTime());
+			errors.state(request, isDeadlineAfterInitialTime, "deadline", "errors.advertisement.deadlineAfterInitial.future", "Deadline must be after the initial time");
 
 			isEuroSmall = entity.getSmallDiscount().getCurrency().equals("€") || entity.getSmallDiscount().getCurrency().equals("EUR");
-			errors.state(request, isEuroSmall, "smallDiscount", "errors.inquire.smallDiscount.euro", "The money must be in euro '€' / 'EUR'");
+			errors.state(request, isEuroSmall, "smallDiscount", "errors.advertisement.smallDiscount.euro", "The money must be in euro '€' / 'EUR'");
 
 			isEuroAverage = entity.getAverageDiscount().getCurrency().equals("€") || entity.getAverageDiscount().getCurrency().equals("EUR");
-			errors.state(request, isEuroAverage, "averageDiscount", "errors.inquire.averageDiscount.money.euro", "The money must be in euro '€' / 'EUR'");
+			errors.state(request, isEuroAverage, "averageDiscount", "errors.advertisement.averageDiscount.money.euro", "The money must be in euro '€' / 'EUR'");
 
 			isEuroLarge = entity.getLargeDiscount().getCurrency().equals("€") || entity.getLargeDiscount().getCurrency().equals("EUR");
-			errors.state(request, isEuroLarge, "largeDiscount", "errors.inquire.largeDiscount.money.euro", "The money must be in euro '€' / 'EUR'");
+			errors.state(request, isEuroLarge, "largeDiscount", "errors.advertisement.largeDiscount.money.euro", "The money must be in euro '€' / 'EUR'");
 
 			isPositiveSmall = entity.getSmallDiscount().getAmount() > 0;
-			errors.state(request, isPositiveSmall, "smallDiscount", "errors.inquire.smallDiscount.positive", "The amount must be positive");
+			errors.state(request, isPositiveSmall, "smallDiscount", "errors.advertisement.smallDiscount.positive", "The amount must be positive");
 
 			isPositiveAverage = entity.getAverageDiscount().getAmount() > 0;
-			errors.state(request, isPositiveAverage, "averageDiscount", "errors.inquire.averageDiscount.positive", "The amount must be positive");
+			errors.state(request, isPositiveAverage, "averageDiscount", "errors.advertisement.averageDiscount.positive", "The amount must be positive");
 
 			isPositiveLarge = entity.getLargeDiscount().getAmount() > 0;
-			errors.state(request, isPositiveLarge, "largeDiscount", "errors.inquire.largeDiscount.positive", "The amount must be positive");
+			errors.state(request, isPositiveLarge, "largeDiscount", "errors.advertisement.largeDiscount.positive", "The amount must be positive");
 
 		}
 	}
@@ -100,6 +113,10 @@ public class AdministratorAdvertisementUpdateService implements AbstractUpdateSe
 	public void update(final Request<Advertisement> request, final Advertisement entity) {
 		assert request != null;
 		assert entity != null;
+
+		Date moment = new Date(System.currentTimeMillis() - 1);
+
+		entity.setCreationMoment(moment);
 
 		this.repository.save(entity);
 	}

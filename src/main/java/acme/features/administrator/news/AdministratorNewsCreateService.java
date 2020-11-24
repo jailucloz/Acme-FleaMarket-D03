@@ -1,6 +1,8 @@
 
 package acme.features.administrator.news;
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -64,10 +66,17 @@ public class AdministratorNewsCreateService implements AbstractCreateService<Adm
 		assert entity != null;
 		assert errors != null;
 
-		boolean isAccepted;
+		boolean isAccepted, isFuture;
+		Date today = new Date(System.currentTimeMillis() - 1);
 
 		isAccepted = request.getModel().getBoolean("accept");
 		errors.state(request, isAccepted, "accept", "administrator.news.error.must-accept");
+
+		if (!errors.hasErrors("limitDate")) {
+			isFuture = entity.getDeadline().after(today);
+			errors.state(request, isFuture, "deadline", "administrator.news.error.no-future");
+
+		}
 
 	}
 

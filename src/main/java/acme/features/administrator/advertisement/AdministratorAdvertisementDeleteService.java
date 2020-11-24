@@ -1,6 +1,8 @@
 
 package acme.features.administrator.advertisement;
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,7 +27,12 @@ public class AdministratorAdvertisementDeleteService implements AbstractDeleteSe
 	@Override
 	public boolean authorise(final Request<Advertisement> request) {
 		assert request != null;
-		return true;
+		Date moment = new Date(System.currentTimeMillis() - 1);
+
+		Advertisement advertisement = this.repository.findOneById(request.getModel().getInteger("id"));
+		Boolean isActive = advertisement.getDeadline().after(moment) && advertisement.getInitialTime().before(moment);
+
+		return isActive;
 	}
 
 	@Override

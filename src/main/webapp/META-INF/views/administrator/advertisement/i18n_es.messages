@@ -19,6 +19,16 @@ administrator.advertisement.form.button.update = Actualizar
 administrator.advertisement.form.button.delete = Eliminar
 
 
+errors.advertisement.deadline.future = La fecha límite deber ser una fecha futura
+errors.advertisement.initialTime.future = La fecha inicial deber ser una fecha inicial 
+errors.advertisement.smallDiscount.euro = La moneda debe ser en euros '€' / 'EUR'
+errors.advertisement.averageDiscount.money.euro = La moneda debe ser en euros '€' / 'EUR'
+errors.advertisement.largeDiscount.money.euro = La moneda debe ser en euros '€' / 'EUR'
+errors.advertisement.smallDiscount.positive = La cantidad debe ser positiva
+errors.advertisement.averageDiscount.positive = La cantidad debe ser positiva
+errors.advertisement.largeDiscount.positive = La cantidad debe ser positiva
+errors.advertisement.deadlineAfterInitial.future = La fecha final debe ser posterior a la fecha inicial
+
 
 
 administrator.advertisement.form.button.return = Volver

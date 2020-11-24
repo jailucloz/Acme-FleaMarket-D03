@@ -1,6 +1,8 @@
 
 package acme.features.administrator.advertisement;
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,6 +32,10 @@ public class AdministratorAdvertisementShowService implements AbstractShowServic
 		assert request != null;
 		assert entity != null;
 		assert model != null;
+
+		Date moment = new Date(System.currentTimeMillis() - 1);
+		Boolean isActive = entity.getDeadline().after(moment) && entity.getInitialTime().before(moment);
+		model.setAttribute("isActive", isActive);
 
 		request.unbind(entity, model, "creationMoment", "deadline", "initialTime", "title", "smallDiscount", "averageDiscount", "largeDiscount", "description", "picture");
 

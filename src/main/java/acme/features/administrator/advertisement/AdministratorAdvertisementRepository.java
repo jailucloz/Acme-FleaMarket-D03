@@ -10,10 +10,10 @@ import acme.framework.repositories.AbstractRepository;
 
 public interface AdministratorAdvertisementRepository extends AbstractRepository {
 
-	@Query("select a from Advertisement a where a.id = ?1 and a.deadline > CURRENT_TIMESTAMP and a.initialTime < CURRENT_TIMESTAMP")
+	@Query("select a from Advertisement a where a.id = ?1")
 	Advertisement findOneById(int id);
 
-	@Query("select a from Advertisement a where a.deadline > CURRENT_TIMESTAMP and a.initialTime < CURRENT_TIMESTAMP")
-	Collection<Advertisement> findManyActive();
+	@Query("select a from Advertisement a")
+	Collection<Advertisement> findMany();
 
 }
