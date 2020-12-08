@@ -429,4 +429,21 @@ Figment
 + maxMoney: Money {NotNull}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>714</x>
+      <y>392</y>
+      <w>217</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Customisation
+--
++ spam: String {NotBlank}
++ thresold: Double {NotNull, Min=0, max=100}
++ itemCategories: String {NotBlank}
++ newsCategories: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
